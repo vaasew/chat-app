@@ -6,7 +6,7 @@ import Signin from './Signin'
 
 
 const style={
-    nav:`bg-gray-800 h-20 flex max-w-[720px] w-full justify-between items-center p-4 fixed z-10`,
+    nav:`bg-gray-800 h-20 flex max-w-[998px] w-full justify-between items-center p-4 fixed z-10`,
     heading:`text-white text-3xl`
 }
 
