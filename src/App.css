@@ -1,0 +1,6 @@
+.dark {
+  @apply bg-gray-800 text-zinc-50
+}
+.light {
+  @apply bg-gray-100 text-black
+}
