@@ -22,7 +22,7 @@ function App() {
 
 const style={
   appContainer:`max-w-[1000px] mx-auto text-center`,
-  sectionContainer:`flex flex-col h-[90vh] mt-10 shadow-xl border overflow-scroll relative ${darkMode?"dark":"light"}`
+  sectionContainer:`flex flex-col h-[90vh] mt-10 shadow-xl border overflow-scroll fixed w-full max-w-[1000px] ${darkMode?"dark":"light"}`
 }
   return (
    <>
@@ -33,7 +33,7 @@ const style={
         {user ? <Chat /> : null}
       </section>
       <p className="text-xl">
-      <Toggle darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>
+      <Toggle className="fixed" darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>
       </p>
     </div>
    </ThemeContext.Provider>
