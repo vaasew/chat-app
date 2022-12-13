@@ -16,7 +16,7 @@ function Navbar() {
   return (
     <>
     <div className={style.nav}>
-        <h1 className={style.heading}>Chat</h1>
+        <h1 className={style.heading}>Chateau</h1>
         {user ? <LogOut /> : <Signin />}
     </div>
     </>
